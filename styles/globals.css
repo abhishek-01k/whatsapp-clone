@@ -1,0 +1,34 @@
+html,
+body {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow: hidden;
+  background: rgba(0,150,136);
+  background: linear-gradient(180deg,rgba(0,150,136,1) 0%, rgba(0,150,136,1) 15%, rgba(215,219,214,1) 15%, rgba(215,219,214,1) 130%)
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+@media (min-width: 1400px) {
+  body{
+      font-size:22px;
+  }
+  
+}
+
+
+@media (max-width: 768px) {
+  
+}
+
+
