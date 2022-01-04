@@ -8,7 +8,7 @@ import AttachFileIcon from '@mui/icons-material/AttachFile';
 import Message from './Message';
 import getFriendData from '../utilities/getFriendData';
 import { addDoc, collection, doc, onSnapshot, orderBy, query, serverTimestamp, setDoc } from 'firebase/firestore';
-import { db } from '../firebase';
+import { db } from '../Firebase';
 import { useAuth } from '../Auth';
 import moment from 'moment';
 

@@ -2,7 +2,7 @@ import { collection, doc, getDoc, getDocs, orderBy, query } from 'firebase/fires
 import React from 'react';
 import styled from "styled-components"
 import ChatContent from '../../Components/ChatContent';
-import { db } from '../../firebase';
+import { db } from '../../Firebase';
 
 function ChatBox({chat,id,messages}) {
     return (
